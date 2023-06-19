@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*
+//navbar
+*/
+nav{
+    display: inline-flex;
+    width: 94%;
+    margin: 10px 20px;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-flex;
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #F0FFF0;
+    padding: 8px 8px;
+    text-align:right;
+    border-radius: 10px 10px 10px 10px;
+}
+
+    nav ul li a {
+        text-decoration: solid;
+        color: black;
+        font-weight: bold;
+    }
+
+        nav ul li a:hover {
+            color: darkred;
+        }
+
+.detail{
+    margin-right: 15%;
+    margin-top: 17%;
+}
+.detail h1 {
+            font-size: 50px;
+            color: khaki;
+            margin-bottom: 20px;
+            float:right;
+        }
+.detail p {
+    font-size: 20px;
+    color: 	#F5F5F5;
+    margin-right: -37%;
+    margin-top: 10%;
+    line-height: 28px;
+    float:right;
+}
+.detail a{
+    background: #212121;
+    float:right;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aqua;
+    display: inline-block;
+    margin-right: -29%;
+    margin-top: 15%;
+    border-radius: 5px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+    .images img {
+        height: 120%;
+        width: 90%;
+        position: absolute;
+        left: 40%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+        opacity: 1.8;
+        filter: saturate(1.7);
+
+/*
+        filter:grayscale(60%)
+*/
+
+    }
+
+.images:hover .boy{
+    left: 70%;
+}
+/*
+//about page
+*/
+.about{
+     margin-right: 15%;
+     margin-top: 17%;
+
+}
+
+.about h2 {
+     font-size: 20px;
+     color: cornflowerblue;
+     margin-left: 45px;
+}
+.material-symbols-outlined {
+     color: orange;
+     height: 1px;
+     margin-left: 30px;
+     margin-top:20px;
+
+     }
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin-left:3%;
+}
+
+th {
+  border: 3px solid thistle;
+  color:gold;
+/*  text-shadow: 2px 2px 4px white;*/
+  padding: 8px;
+  text-align: center;
+  font-size: 35px;
+  background-color:dimgray;
+}
+td{
+  text-align: center;
+  border: 3px solid thistle;
+  color:white;
+  padding: 8px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px darkred;
+  background-color: burlywood;
+}
+
+tr:hover {
+  background-color: grey;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.edu{
+text-align:center;
+color: snow;
+text-shadow: 2px 2px 4px orange;
+}
+.abtname{
+color: silver;
+}
+.skills{
+  text-align:center;
+  text-color:snow;
+  background-color: beige;
+}
