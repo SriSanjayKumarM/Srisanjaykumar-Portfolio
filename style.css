@@ -20,8 +20,6 @@ nav ul li {
     margin-top: 10px;
     margin-right: 20px;
 background-image: radial-gradient(circle ,#c6ffdd, #fbd786, #f7797d);
-
-
     padding: 8px 8px;
     text-align:right;
     border-radius: 10px 10px 10px 10px;
@@ -436,15 +434,375 @@ background-image: radial-gradient(circle, #FFD194, #D1913C);
 
 .projects{
   text-align:center;
+  font-size:40px;
   color: white;
-  text-shadow: 3px 3px 4px black;
-  background-image: radial-gradient(circle, #ff9966, #ff5e62);
+    text-shadow: 4px 4px 8px black;
+/*
+background: repeating-radial-gradient(circle closest-corner at 100px 100px, #553c9a, #b393d3 10%, #553c9a 20%);
+*/
+
   padding: 4px 4px;
-  border-radius: 2px 2px 2px 2px;
-  width:80%;
+  border-radius: 10px 10px 10px 10px;
+  width:100%;
   margin-top: 30px;
-  margin-left:140px;
+  margin-left:0px;
   font-family:"Playfair Display", serif;
   text-transform:uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 10px;
+
+    animation: cursor 1s infinite step-end, typing 20s infinite steps(60);
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes typing{
+  0%{ width: 0ch} /*Text is hidden*/
+  30%{ width: 60ch;} /*The enitre header will be typed out*/
+  80%{ width: 0ch;} /*Text stays visible*/
+  90%{ width: 0ch;} /*Text is deleted*/
+  100%{ width: 0ch;} /*Text stays hidden*/
+}
+
+/*
+             // flip cards starts here
+*/
+          /*/flip card 1 for lex project*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  text-shadow: 2px 2px 4px #b6fbff;
+  perspective: 1000px;
+  margin-left:100px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card-inner p{
+color:black;
+text-shadow: 2px 2px 4px white;
+}
+.flip-card-inner h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top:110px;
+    background: -webkit-radial-gradient(circle , 315deg, #d2a813 0%, #000000 74%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: black;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  transform: rotateY(180deg);
+}
+
+/*
+          // flip card 2 for java project
+*/
+.flip-card2 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-top: -325px;
+  text-shadow: 2px 2px 4px #b6fbff;
+  perspective: 1000px;
+  margin-left:525px;
+}
+
+.flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card-inner2 p{
+color:black;
+text-shadow: 2px 2px 4px white;
+}
+.flip-card-inner2 h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top:120px;
+    background: -webkit-radial-gradient(circle , 315deg, #d2a813 0%, #000000 74%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: black;
+}
+
+.flip-card2:hover .flip-card-inner2 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front2, .flip-card-back2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front2 {
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+
+  color: black;
+}
+
+.flip-card-back2 {
+  background-color: #2980b9;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  transform: rotateY(180deg);
+}
+
+/*
+          // flip card 3 for website project
+*/
+.flip-card3 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-top: -325px;
+  text-shadow: 2px 2px 4px #b6fbff;
+  perspective: 1000px;
+  margin-left:925px;
+}
+
+.flip-card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card-inner3 p{
+color:black;
+text-shadow: 2px 2px 4px white;
+}
+.flip-card-inner3 h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top:120px;
+    background: -webkit-radial-gradient(circle , 315deg, #d2a813 0%, #000000 74%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: black;
+}
+
+.flip-card3:hover .flip-card-inner3 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front3, .flip-card-back3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front3 {
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+
+  color: black;
+}
+
+.flip-card-back3 {
+  background-color: #2980b9;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  transform: rotateY(180deg);
+}
+
+/*
+          // flip card 4 for ug project
+*/
+.flip-card4 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px #b6fbff;
+  perspective: 1000px;
+  margin-left:300px;
+}
+
+.flip-card-inner4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card-inner4 p{
+color:black;
+text-shadow: 2px 2px 4px white;
+}
+.flip-card-inner4 h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top:120px;
+    background: -webkit-radial-gradient(circle , 315deg, #d2a813 0%, #000000 74%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: black;
+}
+
+.flip-card4:hover .flip-card-inner4 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front4, .flip-card-back4 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front4 {
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+
+  color: black;
+}
+
+.flip-card-back4 {
+  background-color: #2980b9;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  transform: rotateY(180deg);
+}
+
+/*
+          // flip card 5 for cad project
+*/
+.flip-card5 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-top: -325px;
+  text-shadow: 2px 2px 4px #b6fbff;
+  perspective: 1000px;
+  margin-left:725px;
+}
+
+.flip-card-inner5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card-inner5 p{
+color:black;
+text-shadow: 2px 2px 4px white;
+}
+.flip-card-inner5 h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top:120px;
+    background: -webkit-radial-gradient(circle , 315deg, #d2a813 0%, #000000 74%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: black;
+}
+
+.flip-card5:hover .flip-card-inner5 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front5, .flip-card-back5 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front5 {
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+  color: black;
+}
+
+.flip-card-back5 {
+  background-color: #2980b9;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  transform: rotateY(180deg);
+}
+
+/*
+           //subtitles font color
+*/
+
+.flip-card-back h2{
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #ff7878 74%);
+
+
 }
