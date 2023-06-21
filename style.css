@@ -225,7 +225,7 @@ body {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 57%;
   text-align:center;
   text-shadow: 2px 2px 4px white;
 }
@@ -390,33 +390,44 @@ div {
 
 .rep {
 background-image: radial-gradient(circle, #FFD194, #D1913C);
-  text-align:center;  color:white;
-  text-shadow: 2px 2px 4px red;
+
+  text-align:center;  color:black;
+  text-shadow: 2px 2px 4px white;
   border-left: 6px solid #f44336;
+}
+.rep p{
+font-family: ui-monospace;
 }
 
 .placement {
 background-image: radial-gradient(circle, #FFD194, #D1913C);
-  text-align:center;  color:white;
-  text-shadow: 2px 2px 4px green;
+  text-align:center;  color:black;
+  text-shadow: 2px 2px 4px white;
   border-left: 6px solid #04AA6D;
 }
-
+.placement p{
+font-family: ui-monospace;
+}
 
 .coordinator {
 background-image: radial-gradient(circle, #FFD194, #D1913C);
   text-align:center;
-  color:white;
-  text-shadow: 2px 2px 4px blue;
+  color:black;
+  text-shadow: 2px 2px 4px white;
   border-left: 6px solid #2196F3;
 }
-
+.coordinator p{
+font-family: ui-monospace;
+}
 
 .organizer {
 background-image: radial-gradient(circle, #FFD194, #D1913C);
-  text-align:center;  color:white;
-  text-shadow: 2px 2px 4px yellow;
+  text-align:center;  color:black;
+  text-shadow: 2px 2px 4px white;
   border-left: 6px solid #ffeb3b;
+}
+.organizer p{
+font-family: ui-monospace;
 }
 /*.roles{
     text-align:center;
@@ -432,7 +443,7 @@ background-image: radial-gradient(circle, #FFD194, #D1913C);
          //projects page starts here
 */
 
-.projects{
+.projects {
   text-align:center;
   font-size:40px;
   color: white;
@@ -804,5 +815,249 @@ background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
 background-color: #ffffff;
 background-image: linear-gradient(315deg, #ffffff 0%, #ff7878 74%);
 
+}
+.flip-card-back2 h2{
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #ff7878 74%);
 
+}
+.flip-card-back3 h2{
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #ff7878 74%);
+
+}
+.flip-card-back4 h2{
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #ff7878 74%);
+
+}
+.flip-card-back5 h2{
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #ff7878 74%);
+
+}
+
+/*
+      //image gallery for chat bot
+*/
+
+.lex h1{
+background: -webkit-linear-gradient(to right, #0099f7, #f11712);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: white;
+
+text-align: center;
+text-shadow: 2px 2px 4px green;
+font-size:40px;
+}
+
+
+div.gallery {
+  border: 10px solid red;
+}
+
+div.gallery:hover {
+  border: 7px solid ;
+  border-color:green;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 9px;
+  color:white;
+  font-size:25px;
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+
+  text-shadow: 2px 2px 4px red;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 8px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+/*
+          //certifications page starts here
+*/
+
+.certifications h1{
+font-family: Times-New-Roman;
+color:yellow;
+background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
+width:50%;
+margin-left: 325px;
+background-opacity:0.5;
+  border-radius: 20px 20px 20px 20px;
+text-align:center;
+text-shadow: 3px 3px 4px black;
+}
+
+/*
+         //certifications timeline
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline2 {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline2::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container2 {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 57%;
+  text-align:center;
+  text-shadow: 2px 2px 4px white;
+}
+
+/* The circles on the timeline */
+.container2::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: olive;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: -6.75%;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent darkgray;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent darkgray transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content2 {
+  padding: 10px 10px;
+background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+font-size:20px;
+  opacity:1.9;
+  position: relative;
+  border-radius: 15px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+
+  /* Full-width containers */
+  .container2 {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container2::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /*
+         Make sure all circles are at the same spot
+   */
+  .left::after, .right::after {
+  left: 15px;
+  }
+
+  /*
+        Make all right containers behave like the left ones
+   */
+  .right {
+  left: 0%;
+  }
 }
