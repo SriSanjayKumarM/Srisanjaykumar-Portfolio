@@ -19,7 +19,9 @@ nav ul li {
     list-style: none;
     margin-top: 10px;
     margin-right: 20px;
-    background-color: #F0FFF0;
+background-image: radial-gradient(circle ,#c6ffdd, #fbd786, #f7797d);
+
+
     padding: 8px 8px;
     text-align:right;
     border-radius: 10px 10px 10px 10px;
@@ -41,7 +43,9 @@ nav ul li {
 }
 .detail h1 {
             font-size: 50px;
-            color: khaki;
+            background: -webkit-radial-gradient(circle farthest-side, #FF1A1A, #f8b500);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
             margin-bottom: 20px;
             float:right;
         }
@@ -122,11 +126,13 @@ table {
 
 th {
   border: 3px solid thistle;
-  color:gold;
+background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
 /*  text-shadow: 2px 2px 4px white;*/
   padding: 8px;
+    text-shadow: 2px 2px 4px white;
   text-align: center;
   font-size: 35px;
+  font-family: Times, "Times New Roman", Georgia, serif;
   background-color:dimgray;
 }
 td{
@@ -135,8 +141,9 @@ td{
   color:white;
   padding: 8px;
   font-size: 20px;
+    font-family: cursive;
   text-shadow: 2px 2px 4px darkred;
-  background-color: burlywood;
+background-image: linear-gradient(to right, #ff9966, #ff5e62);
 }
 
 tr:hover {
@@ -159,24 +166,29 @@ color: silver;
 }
 .skills{
   text-align:center;
-  text-color:white;
-  background-color: orange;
-  text-shadow: 2px 2px 4px white;
+  text-shadow: 3px 3px 4px white;
   padding: 4px 4px;
   border-radius: 20px 20px 20px 20px;
   width:50%;
+    font-family: fangsong;
   margin-left:325px;
   position:relative;
   animation-name: example;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
+    background-color: orange;
 }
+
 @keyframes example {
   0%   {background-color:white; left:0px; top:0px;}
   25%  {background-color:cyan; left:325px; top:0px;}
   50%  {background-color:white; left:-325px; top:0px;}
   75%  {background-color:chartreuse; left:325px; top:0px;}
-  100% {background-color:orange; left:0px; top:0px;}
+  100% {background-color:orange;left:0px; top:0px;}
+}
+
+.content p {
+  font-family: emoji;
 }
 ------------------------------------------------------------------------
 /*
@@ -280,7 +292,7 @@ body {
 /* The actual content */
 .content {
   padding: 10px 10px;
-  background-color: darkgray;
+background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
   opacity:1.9;
   position: relative;
   border-radius: 15px;
@@ -329,21 +341,22 @@ body {
 
 .button {
   border-radius: 4px;
-  background-color: mediumpurple;
+background-image: radial-gradient(circle , #2c3e50, #4ca1af);
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
   padding: 10px;
-  width: 500px;
+  width: 600px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 10px;
-  margin-left: 8%;
+  margin-left: 30px;
 }
 
 .button span {
   cursor: pointer;
+  font-family: ui-rounded;
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -370,7 +383,7 @@ body {
 }
 
 /*
-      roles and responsibilities using callout
+      roles and responsibilities using labels
 */
 div {
   margin-bottom: 15px;
@@ -378,39 +391,60 @@ div {
 }
 
 .rep {
-  background-color: #ffdddd;
-  text-align:center;
-text-shadow: 2px 2px 4px red;
+background-image: radial-gradient(circle, #FFD194, #D1913C);
+  text-align:center;  color:white;
+  text-shadow: 2px 2px 4px red;
   border-left: 6px solid #f44336;
 }
 
 .placement {
-  background-color: #ddffdd;
-  text-align:center;
-text-shadow: 2px 2px 4px green;
+background-image: radial-gradient(circle, #FFD194, #D1913C);
+  text-align:center;  color:white;
+  text-shadow: 2px 2px 4px green;
   border-left: 6px solid #04AA6D;
 }
 
+
 .coordinator {
-  background-color: #e7f3fe;
+background-image: radial-gradient(circle, #FFD194, #D1913C);
   text-align:center;
-text-shadow: 2px 2px 4px blue;
+  color:white;
+  text-shadow: 2px 2px 4px blue;
   border-left: 6px solid #2196F3;
 }
 
 
 .organizer {
-  background-color: #ffffcc;
-  text-align:center;
-text-shadow: 2px 2px 4px yellow;
+background-image: radial-gradient(circle, #FFD194, #D1913C);
+  text-align:center;  color:white;
+  text-shadow: 2px 2px 4px yellow;
   border-left: 6px solid #ffeb3b;
 }
-.roles{
-  text-align:center;
-  background-color: dimgray;
-  text-shadow: 2px 2px 4px antiquewhite;
+/*.roles{
+    text-align:center;
+    background-image: linear-gradient(to right, #FFD194, #D1913C);
+    text-shadow: 2px 2px 4px antiquewhite;
     padding: 3px 3px;
-    border-radius: 10px 10px 10px 10px;
-    width:50%;
+    border-radius: 2px 2px 2px 2px;
+    width:30%;
     margin-left:0px;
+}*/
+
+/*
+         //projects page starts here
+*/
+
+.projects{
+  text-align:center;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  background-image: radial-gradient(circle, #ff9966, #ff5e62);
+  padding: 4px 4px;
+  border-radius: 2px 2px 2px 2px;
+  width:80%;
+  margin-top: 30px;
+  margin-left:140px;
+  font-family:"Playfair Display", serif;
+  text-transform:uppercase;
+  letter-spacing: 2px;
 }
