@@ -19,7 +19,8 @@ nav ul li {
     list-style: none;
     margin-top: 10px;
     margin-right: 20px;
-background-image: radial-gradient(circle ,#c6ffdd, #fbd786, #f7797d);
+background-image: linear-gradient(to right, gray, white, #24243e);
+
     padding: 8px 8px;
     text-align:right;
     border-radius: 10px 10px 10px 10px;
@@ -28,7 +29,9 @@ background-image: radial-gradient(circle ,#c6ffdd, #fbd786, #f7797d);
     nav ul li a {
         text-decoration: solid;
         color: black;
+        text-shadow: 4px 4px 8px white;
         font-weight: bold;
+        letter-spacing: 2px;
     }
 
         nav ul li a:hover {
@@ -50,7 +53,7 @@ background-image: radial-gradient(circle ,#c6ffdd, #fbd786, #f7797d);
 .detail p {
     font-size: 20px;
     color: 	#F5F5F5;
-    margin-right: -37%;
+    margin-right: -45%;
     margin-top: 10%;
     line-height: 28px;
     float:right;
@@ -97,7 +100,7 @@ background-image: radial-gradient(circle ,#c6ffdd, #fbd786, #f7797d);
 }
 
 /*
-                                           //about page
+                                           //about page starts here
 */
 .about{
      margin-right: 15%;
@@ -107,15 +110,15 @@ background-image: radial-gradient(circle ,#c6ffdd, #fbd786, #f7797d);
 .about h2 {
      font-size: 20px;
      color: cornflowerblue;
-     margin-left: 45px;
+     margin-left: 27px;
 }
-.material-symbols-outlined {
+/*.material-symbols-outlined {
      color: orange;
      height: 1px;
      margin-left: 30px;
      margin-top:20px;
 
-     }
+     }*/
 table {
   border-collapse: collapse;
   width: 95%;
@@ -124,7 +127,7 @@ table {
 
 th {
   border: 3px solid thistle;
-background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+background-image: radial-gradient(circle farthest-side, #fceabb, dimgray);
 /*  text-shadow: 2px 2px 4px white;*/
   padding: 8px;
     text-shadow: 2px 2px 4px white;
@@ -141,11 +144,11 @@ td{
   font-size: 20px;
     font-family: cursive;
   text-shadow: 2px 2px 4px darkred;
-background-image: linear-gradient(to right, #ff9966, #ff5e62);
+background-image: linear-gradient(to right, #ff9966, dimgray);
 }
 
 tr:hover {
-  background-color: grey;
+  background-color: black;
   opacity: 0.5;
   transition: 0.3s;
 }
@@ -169,12 +172,12 @@ color: silver;
   border-radius: 20px 20px 20px 20px;
   width:50%;
     font-family: fangsong;
-  margin-left:325px;
+  margin-left:295px;
   position:relative;
   animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
-    background-color: orange;
+background-image: linear-gradient(to right, skyblue, mediumspringgreen);
 }
 
 @keyframes example {
@@ -198,7 +201,7 @@ color: silver;
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Times-New-Roman;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -225,7 +228,7 @@ body {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 57%;
+  width: 56.5%;
   text-align:center;
   text-shadow: 2px 2px 4px white;
 }
@@ -236,7 +239,7 @@ body {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -17.5px;
   background-color: olive;
   border: 4px solid #FF9F55;
   top: 15px;
@@ -289,7 +292,7 @@ body {
 
 /* The actual content */
 .content {
-  padding: 10px 10px;
+  padding: 5px 5px;
 background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
   opacity:1.9;
   position: relative;
@@ -305,7 +308,7 @@ background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
 
   /* Full-width containers */
   .container {
-  width: 100%;
+  width: 85%;
   padding-left: 70px;
   padding-right: 25px;
   }
@@ -329,7 +332,7 @@ background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
         Make all right containers behave like the left ones
    */
   .right {
-  left: 0%;
+  left: 1%;
   }
 }
 
@@ -345,11 +348,11 @@ background-image: radial-gradient(circle , #2c3e50, #4ca1af);
   text-align: center;
   font-size: 28px;
   padding: 10px;
-  width: 600px;
+  width: 500px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 10px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .button span {
@@ -488,7 +491,7 @@ body {
   height: 300px;
   text-shadow: 2px 2px 4px #b6fbff;
   perspective: 1000px;
-  margin-left:100px;
+  margin-left:50px;
 }
 
 .flip-card-inner {
@@ -551,10 +554,10 @@ background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
   background-color: transparent;
   width: 300px;
   height: 300px;
-  margin-top: -325px;
+  margin-top: -316px;
   text-shadow: 2px 2px 4px #b6fbff;
   perspective: 1000px;
-  margin-left:525px;
+  margin-left:465px;
 }
 
 .flip-card-inner2 {
@@ -617,10 +620,10 @@ background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
   background-color: transparent;
   width: 300px;
   height: 300px;
-  margin-top: -325px;
+  margin-top: -315px;
   text-shadow: 2px 2px 4px #b6fbff;
   perspective: 1000px;
-  margin-left:925px;
+  margin-left:865px;
 }
 
 .flip-card-inner3 {
@@ -686,7 +689,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
   margin-top: 50px;
   text-shadow: 2px 2px 4px #b6fbff;
   perspective: 1000px;
-  margin-left:300px;
+  margin-left:250px;
 }
 
 .flip-card-inner4 {
@@ -749,10 +752,10 @@ background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
   background-color: transparent;
   width: 300px;
   height: 300px;
-  margin-top: -325px;
+  margin-top: -315px;
   text-shadow: 2px 2px 4px #b6fbff;
   perspective: 1000px;
-  margin-left:725px;
+  margin-left:675px;
 }
 
 .flip-card-inner5 {
@@ -950,10 +953,10 @@ body {
 
 /* Container around content */
 .container2 {
-  padding: 10px 40px;
+  padding: 20px 60px;
   position: relative;
   background-color: inherit;
-  width: 57%;
+  width: 656px;
   text-align:center;
   text-shadow: 2px 2px 4px white;
 }
@@ -964,7 +967,7 @@ body {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -15.75px;
   background-color: olive;
   border: 4px solid #FF9F55;
   top: 15px;
@@ -974,7 +977,7 @@ body {
 
 /* Place the container to the left */
 .left {
-  left: -6.75%;
+  left: -5.75%;
 }
 
 /* Place the container to the right */
@@ -987,10 +990,10 @@ body {
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
-  width: 0;
+  top: 30px;
+  width: 2px;
   z-index: 1;
-  right: 30px;
+  right: 50px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent darkgray;
@@ -1001,10 +1004,10 @@ body {
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 30px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 50px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent darkgray transparent transparent;
@@ -1036,7 +1039,7 @@ font-size:20px;
   .container2 {
   width: 100%;
   padding-left: 70px;
-  padding-right: 25px;
+  padding-right: 35px;
   }
 
   /* Make sure that all arrows are pointing leftwards */
@@ -1060,4 +1063,50 @@ font-size:20px;
   .right {
   left: 0%;
   }
+}
+
+/*
+         //contact page starts here
+*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 390px;
+  margin-top: 1px;
+  color: white;
+background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+  text-shadow: 2px 2px 4px dimgray;
+  margin-left: 435px;
+  text-align: center;
+  font-family: Times-New-Roman;
+}
+
+.title {
+  color: cornflowerblue;
+  text-shadow: 2px 2px 4px black;
+  font-size: 18px;
+}
+
+button {
+  border-radius: 10px 10px 10px 10px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
+
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 22px;
+}
+
+button:hover, a:hover {
+  opacity: 1.7;
+}
+
+.inside{
+background-color: #b8c6db;
+background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
