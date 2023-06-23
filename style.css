@@ -144,7 +144,9 @@ td{
   font-size: 20px;
     font-family: cursive;
   text-shadow: 2px 2px 4px darkred;
-background-image: linear-gradient(to right, #ff9966, dimgray);
+background-color: #21d190;
+background-color: #76daff;
+background-image: linear-gradient(315deg, dimgray 0%, #fcd000 74%);
 }
 
 tr:hover {
