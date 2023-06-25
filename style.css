@@ -19,11 +19,11 @@ nav ul li {
     list-style: none;
     margin-top: 10px;
     margin-right: 20px;
-background-image: linear-gradient(to right, gray, white, #24243e);
-
-    padding: 8px 8px;
+/*background-image: radial-gradient(circle farthest-side, white, skyblue);*/
+background-color:	#55d0ff;
+    padding: 5px 5px;
     text-align:right;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 14px 14px 14px 14px;
 }
 
     nav ul li a {
@@ -52,7 +52,9 @@ background-image: linear-gradient(to right, gray, white, #24243e);
         }
 .detail p {
     font-size: 20px;
-    color: 	#F5F5F5;
+background: -webkit-radial-gradient(circle farthest-side, yellow, skyblue);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
     margin-right: -45%;
     margin-top: 10%;
     line-height: 28px;
@@ -64,17 +66,17 @@ background-image: linear-gradient(to right, gray, white, #24243e);
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
-    color: aqua;
+    color: cyan;
     display: inline-block;
     margin-right: -29%;
     margin-top: 15%;
     border-radius: 5px;
 }
 .images{
-    width: 45%;
-    height: 80%;
+    width: 43%;
+    height: 85%;
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     left: 50px;
 }
 
@@ -87,7 +89,8 @@ background-image: linear-gradient(to right, gray, white, #24243e);
         transform: translateX(-50%);
         transition: bottom 1s, left 1s;
         opacity: 1.8;
-        filter: saturate(1.7);
+/*        filter: saturate(1.7);*/
+filter: grayscale(0.3);
 
 /*
         filter:grayscale(60%)
@@ -146,7 +149,7 @@ td{
   text-shadow: 2px 2px 4px darkred;
 background-color: #21d190;
 background-color: #76daff;
-background-image: linear-gradient(315deg, dimgray 0%, #fcd000 74%);
+background-image: linear-gradient(315deg, dimgray 0%, gray 74%);
 }
 
 tr:hover {
